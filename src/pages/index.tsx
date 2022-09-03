@@ -168,7 +168,6 @@ export default function Home({ allPosts }: any) {
 								height="100%"/>
 						</Card>
 						<Box
-							component="p"
 							sx={{
 								position: 'absolute',
 								bottom: '20px',
@@ -217,7 +216,6 @@ export default function Home({ allPosts }: any) {
 											height="100%"/>
 									</Card>
 									<Box
-										component="p"
 										sx={{
 											position: 'absolute',
 											bottom: '20px',
@@ -263,7 +261,6 @@ export default function Home({ allPosts }: any) {
 											height="100%"/>
 									</Card>
 									<Box
-										component="p"
 										sx={{
 											position: 'absolute',
 											bottom: '20px',
@@ -309,7 +306,6 @@ export default function Home({ allPosts }: any) {
 											height="100%"/>
 									</Card>
 									<Box
-										component="p"
 										sx={{
 											position: 'absolute',
 											bottom: '20px',
@@ -355,7 +351,6 @@ export default function Home({ allPosts }: any) {
 											height="100%"/>
 									</Card>	
 									<Box
-										component="p"
 										sx={{
 											position: 'absolute',
 											bottom: '20px',
@@ -404,7 +399,6 @@ export default function Home({ allPosts }: any) {
 								height="100%"/>
 						</Card>
 						<Box
-							component="p"
 							sx={{
 								position: 'absolute',
 								bottom: '20px',

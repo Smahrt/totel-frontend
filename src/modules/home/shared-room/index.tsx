@@ -25,7 +25,7 @@ const SharedRoom: React.FC<SharedRoomProps> = () => {
         color: "white",
         position: "relative",
         "&:before": {
-          content: '""',
+          // content: '""',
           position: "absolute",
           left: "0",
           top: "0",

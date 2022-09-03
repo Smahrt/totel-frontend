@@ -63,12 +63,12 @@ const LocationGridItem: React.FC<GridItemProps> = ({ item, textStyle }) => {
 			</Card>
 
 			<Box>			
-				<Box
+				{/* <Box
 					component="h3"
 					className={textStyle == 'normal' ? classes.normaltext : classes.absolutetext }
 					>
 					{item.label}
-				</Box>	
+				</Box>	 */}
 			</Box>		
 		</Box>
   );
