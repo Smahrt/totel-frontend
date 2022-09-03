@@ -1,0 +1,103 @@
+
+.travaller_col {
+	display: flex !important;
+	background: #FFFFFF;
+	margin-left: 25px;
+  
+	border: 1px solid #E9E9EE;
+	border-radius: 12px;
+  }
+
+.travaller_header {
+	display: flex;
+	padding: 15px 15px 0 15px;
+}
+
+.travaller_user_image img {
+	border-radius: 50%;
+	width: 20%;
+}
+
+.travaller_user_details {
+	display: flex;
+	flex-direction: column;
+	padding: 5px 0px 5px 15px;
+	width: 60%;
+}
+
+.travaller_user_rate {
+	display: flex;
+	flex-direction: column;
+	padding: 5px 15px;
+	width: 20%;
+}
+
+.travaller_user_rate button {
+	font-weight: bold;
+	color: #fff;
+	background: #E99D44;
+	border-radius: 20px;
+}
+
+.travaller_user_rate button :hover {
+	font-weight: bold;
+	color: #fff;
+	background: #E99D44;
+	border-radius: 20px;
+}
+
+.travaller_body {
+	padding: 15px;
+}
+
+.travaller_body_date_row {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0;
+}
+
+.travaller_body_date a {
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 26px;
+	padding: 10px 15px;
+}
+
+.travaller_body_bookmark {
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	backdrop-filter: blur(4px);
+	border-radius: 24.5px;
+	padding: 7px 12px;
+	margin-top: -10px;
+}
+
+.travaller_body_text {
+	padding-top: 10px;
+	padding-bottom: 15px;
+
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.text_normal strong {
+	font-size: 16px;
+	color: #54585C;
+  }
+  
+  .textmuted {
+	color: #696888;
+	font-size: 14px;
+	padding-bottom: 20px;
+  }
+  
+  .postname {
+	font-size: 20px;
+	width: 200px;
+	font-weight: bold;
+	color: #292D32;
+	padding-bottom: 5px;
+  }

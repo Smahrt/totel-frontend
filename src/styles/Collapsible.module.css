@@ -1,0 +1,63 @@
+.content {
+  display: none;
+}
+
+.show {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  margin-top: 10px;
+}
+
+.requests {
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 20px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.request_body {
+	display: flex;
+
+}
+
+.request_name {
+	width: 60%;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.text_name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 125%;
+	color: #0F0F17;
+}
+
+.textmuted {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ADACC4;
+}
+
+.usericon{
+	width: 20%;
+}
+.request_rate{
+	width: 20%;
+}
+.request_rate button{
+	background: #1A8F3A;
+	border-radius: 20px;
+
+	color:#fff;
+	margin-top: 18px;
+}
+.usericon img {
+	border-radius: 20px;
+}

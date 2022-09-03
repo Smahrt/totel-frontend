@@ -1,0 +1,688 @@
+/* BEGIN: Quick search Tabs of Hostels / Rooms / Tours */
+.wrapquicksearch {
+  background-image: url('../../public/img/pedro-lastra.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 227px;
+  padding-bottom: 64px;
+}
+
+.quicksearch {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.quicksearchtabs button:first-child {
+  border-radius: 24px 0 0 0;
+}
+
+.quicksearchtabs button:last-child {
+  border-radius: 0 24px 0 0;
+}
+
+.quicksearchtabs button.Mui-selected {
+  background-color: #fff;
+}
+
+.quicksearchcontent {
+  color: #292D32;
+  background-color: #fff;
+  box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.04), 0px 16px 24px 2px rgba(0, 0, 0, 0.04), 0px 8px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 0px 24px 24px 24px;
+}
+
+.qwraphostel {
+  position: relative;
+}
+
+.qhostel {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 0 24px 24px;
+}
+
+.qhostelcity {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 117px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  flex: auto;
+}
+
+.qhostelfrom,
+.qhostelto {
+  border-style: solid;
+  border-color: #D9D9D9;
+  flex: 100%;
+}
+
+.MuiBox-root {
+  padding-right: 0;
+}
+
+.qhostelfrom {
+  padding: 21px 11px 0 21px;
+  border-width: 1px 0 1px 1px;
+  border-radius: 16px 0 0 16px;
+}
+
+.qhostelto {
+  padding: 21px 6px 0 11px;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 16px 16px 0;
+}
+
+.qhostelcitytext {
+  font-size: 14px;
+}
+
+.qhostelcityname {
+  padding-top: 8px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.qhostelcitycountry {
+  color: #54585C;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.qhostelcitychange {
+  background: url('../../public/img/quicksearchswap.png') top center no-repeat;
+  width: 64px;
+  height: 89px;
+  padding-top: 28px;
+  padding-left: 2px;
+}
+
+.qhostelcitychange button {
+  cursor: pointer;
+  background: none;
+  width: 62px;
+  height: 62px;
+}
+
+.qhosteldate {
+  border: 1px solid #D9D9D9;
+  border-radius: 16px;
+  display: flex;
+  flex: auto;
+  padding: 27px 0 24px 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.qhosteldatedeparture {
+  flex: auto;
+}
+
+.qhosteldatereturn {
+  flex: auto;
+}
+
+.qhostelsearchbutton {
+  position: absolute;
+  bottom: -24px;
+  right: 24px;
+  width: 179px;
+  height: 48px;
+}
+
+/* .qhostelsearchbutton button {
+  color: #292D32;
+  font-size: 16px;
+  background-color: #F4AB3E;
+  height: 48px;
+  display: block;
+  cursor: pointer;
+width: 179px;
+background: linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%);
+border-radius: 4px;
+} */
+
+/* END: Quick search Tabs of Hostels / Rooms / Tours */
+
+/* BEGIN: Hotel & Hostels */
+/* BEGIN: Rooms */
+.homehotel,
+.homeroom {
+  padding: 0 3vw 40px;
+}
+
+.hhtop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hhtop h2 {
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+
+.hhtop p {
+  font-size: 16px;
+  color: #54585C;
+}
+
+.hhtopright {
+  padding-top: 16px;
+}
+
+.hhpic {
+  padding-top: 22px;
+  display: grid;
+  gap: 20px 24px;
+  grid-template-columns: auto auto auto;
+}
+
+.hhpic a {
+  position: relative;
+}
+
+.hhpic a:first-child {
+  grid-row: 1 / span 2;
+}
+
+.hhpic img {
+  border-radius: 8px;
+}
+
+.hhtitleprice {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #fff;
+}
+
+.hhtitleprice p {
+  font-size: 16px;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.hhtitleprice h3 {
+  font-size: 2.5vw;
+  text-shadow: 0px 0px 10px #000;
+}
+
+@media (max-width: 1000px) {
+  .hhpic {
+    grid-template-columns: auto auto;
+  }
+
+  .hhtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hhpic {
+    grid-template-columns: auto;
+  }
+}
+
+/* END: Hotel & Hostels */
+/* END: Rooms */
+/* Begin: Trip Planner */
+.hometrip {
+  padding: 48px 0 48px 3vw;
+  display: flex;
+}
+
+.hometriptext {
+  padding-right: 24px;
+  flex: 31%;
+}
+
+.hometriptext h2 {
+  font-size: 40px;
+}
+
+.hometriptext p {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 20px 0;
+}
+
+.hometrippic {
+  padding-right: 24px;
+  flex: 23%;
+  position: relative;
+}
+
+.hometrippic h3 {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #fff;
+}
+
+.hometrippic img {
+  border-radius: 8px;
+}
+
+/* END: Trip Planner */
+/* BEGIN: News Letter */
+.homeletter {
+  background-color: #F6F9FF;
+  padding: 102px 14vw 102px;
+}
+
+.homelettersubscribe {
+  background: url('../../public/img/icon/icon-send.svg') top left no-repeat;
+  color: #54585C;
+  font-size: 16px;
+  padding: 3px 0 3px 26px;
+}
+
+.homeletter h2 {
+  color: #292D32;
+  font-size: 40px;
+  padding: 3px 0 20px;
+}
+
+.homeletterform form {
+  display: flex;
+}
+
+.homelettertextfield {
+  flex-grow: 1;
+  max-width: 454px;
+}
+
+/* END: News Letter */
+
+.sharedRoomSection {
+  margin-top: 80px;
+  padding-top: 40px;
+  padding-left: 70px;
+	padding-right: 70px;	
+  justify-content: center;
+  align-items: center;
+}
+
+.locationByType {
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-left: 70px;
+	padding-right: 70px;	
+  justify-content: center;
+  align-items: center;
+}
+
+.locationByTrend {
+  margin-top: 30px;
+	margin-bottom: 10px;
+	margin-bottom: 10px;
+  padding-left: 70px;
+	padding-right: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section01 {
+  margin-top: 80px;
+  padding: 30px 3vw 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section02 {
+  padding: 30px 3vw 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section03 {
+  padding: 30px 3vw 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section04 {
+  padding: 60px 4vw 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.section05 {
+  padding: 60px 4vw 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section05_content {
+  display: flex;
+  background: #657ADC;
+  border-radius: 30px;
+}
+
+.section05_content_main {
+  width: 40%;
+  padding-left: 160px;
+  padding-top: 46px;
+}
+
+.section05_content_text_area {
+  width: 60%;
+  padding-top: 98px;
+  padding-right: 150px;
+}
+
+.section05_content_text_area_title {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+
+  color: #FFFFFF;
+}
+
+.section05_content_text_muted {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #E9E9EE;
+
+  padding-top: 15px;
+}
+
+.section05_content_app_icons{
+  padding-top: 60px;
+  display: flex;
+}
+
+.section05_content_app_icons_img{
+  margin-right: 20px;
+}
+
+.section04_back {
+  background: #F2F1F6;
+}
+
+.section04_main {
+  width: 40%;
+}
+
+.section04_create_post {
+  width: 20%;
+}
+
+.section04_text1 {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 26px;
+
+  color: #696888;
+}
+
+.section04_text_big {
+  padding-top: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 120%;
+  color: #0F0F17;
+}
+
+.section04_watch_now {
+  padding-top: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+
+  color: #657ADC;
+  /* contant vertical center */
+  align-items: center;
+  /* contant horizontal center */
+  justify-content: left;
+
+  display: flex;
+}
+
+.section04_watch_now img {
+  padding-right: 10px !important;
+}
+
+.section04_create_post_image {
+  /* center */
+  justify-content: center;
+  /* center */
+  align-items: center;
+  /* center */
+  display: flex;
+
+}
+
+.section04_create_post_title {
+  padding-top: 15px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+
+  /* Plump Purple-primary */
+
+  color: #657ADC;
+}
+
+.section04_create_post_text {
+  padding-top: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #0F0F17;
+}
+
+.title_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.title_right a {
+  font-size: 14px;
+  color: #657ADC;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  /* align contant center */
+  justify-content: center;
+  /* align items center */
+  align-items: center;
+}
+
+.travaller_row {
+  display: flex;
+  /* align contant center */
+  justify-content: center;
+  /* align items center */
+  align-items: center;
+  padding-top: 20px;
+}
+
+.travaller_col {
+  /* white */
+  display: flex !important;
+  background: #FFFFFF;
+  /* Soap */
+  margin-left: 25px;
+
+  border: 1px solid #E9E9EE;
+  border-radius: 12px;
+}
+
+.traval_content_col {
+  background: #FFFFFF;
+  /* Soap */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #E9E9EE;
+  border-radius: 12px;
+}
+
+.travel_finding_partner {
+  background: #F26465;
+  border-radius: 33px;
+  padding: 5px 10px;
+  width: fit-content;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+.travel_desc {
+  color: #696888;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: inherit;
+}
+
+.travaller_header {
+  display: flex;
+  padding: 15px 15px 0 15px;
+}
+
+.travaller_user_image img {
+  border-radius: 50%;
+}
+
+.travaller_user_details {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px 5px 15px;
+}
+
+.travaller_user_rate {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+
+.travaller_user_rate button {
+  font-weight: bold;
+  color: #fff;
+  background: #E99D44;
+  border-radius: 20px;
+}
+
+.travaller_user_rate button :hover {
+  font-weight: bold;
+  color: #fff;
+  background: #E99D44;
+  border-radius: 20px;
+}
+
+.travaller_body {
+  padding: 15px;
+}
+
+.travaller_body_date_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.travaller_body_date a {
+  background: #FFFFFF;
+  border: 1px solid #E9E9EE;
+  border-radius: 26px;
+  padding: 10px 15px;
+}
+
+.travaller_body_bookmark {
+  background: #FFFFFF;
+  border: 1px solid #E9E9EE;
+  backdrop-filter: blur(4px);
+  border-radius: 24.5px;
+  padding: 7px 12px;
+  margin-top: -10px;
+}
+
+.travaller_body_text {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.row>.col {
+  /* white */
+  display: flex !important;
+  background: #FFFFFF;
+  /* Soap */
+  margin-left: 15px;
+
+  border: 1px solid #E9E9EE;
+  border-radius: 12px;
+}
+
+.row>.col>.image img {
+  background: #D9D9D9;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.row>.col>.details {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.details>.button {
+  background: #FFFFFF;
+  border: 1px solid #E9E9EE;
+  border-radius: 26px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.details>.text_normal {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.text_normal strong {
+  font-size: 16px;
+  color: #54585C;
+}
+
+.textmuted {
+  color: #696888;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.postname {
+  font-size: 20px;
+  width: 200px;
+  font-weight: bold;
+  color: #292D32;
+  padding-bottom: 5px;
+}

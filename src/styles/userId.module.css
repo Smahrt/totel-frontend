@@ -1,0 +1,38 @@
+.userh1 {
+	padding: 24px 2vw;
+	font-size: 2.6rem;
+}
+.usermain {
+	display: flex;
+	padding: 0 2vw 24px;
+}
+@media (max-width: 380px) {
+	.usermain {
+		display: block;
+	}
+}
+.usermain aside {
+	flex: 30%;
+  padding-bottom: 24px;
+}
+.userimg {
+	margin-bottom: 24px;
+	position: relative;
+	min-height: 40px;
+}
+.userimg img {
+	border-radius: 50%;
+}
+.userimgedit {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	bottom: 0;
+	left: 0;
+}
+.usermain section {
+	flex: 70%;
+}
+.usermain section form {
+	padding-left: 3vw;
+}

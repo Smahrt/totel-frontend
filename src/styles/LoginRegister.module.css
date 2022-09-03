@@ -1,0 +1,226 @@
+@media (min-width: 650px) {
+	.logreg {
+		display: flex;
+	}
+}
+
+/* BEGIN: Sidebar <aside> */
+.logreg aside {
+	background: url('../../public/img/logregsidebar.jpg') no-repeat;
+	padding: 44px 7vw 24px;
+	flex: 40%;
+	color: #fff;
+}
+
+.logregsidelogo a {
+	color: #fff;
+}
+
+.logregsidelogo a:hover {
+	color: #ddd;
+}
+
+.logreg aside h1 {
+	font-size: 40px;
+	padding: 168px 0 16px;
+}
+
+.logreg aside p {
+	font-size: 16px;
+}
+
+/* END: Sidebar <aside> */
+/* BEGIN: Main content <section> */
+.logreg section {
+	/* background-image: url('../../public/img/curve1.svg'), */
+	/* url('../../public/img/curve2.svg'); */
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	color: #292d32;
+	flex: 60%;
+	padding: 24px 29vw 24px 30vw;
+
+	justify-content: center;
+}
+
+.logregtoplinks {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logregtoplinks p {
+	padding: 16px 24px 0 0;
+	font-size: 16px;
+}
+
+.logreg section h2 {
+	padding-top: 58px;
+	font-size: 40px;
+}
+
+.logregunderh2 {
+	padding-top: 8px;
+	font-size: 14px;
+	color: #54585c;
+}
+
+.logreg section form {
+	padding-top: 48px;
+}
+
+.logregtextfield {
+	padding-bottom: 32px;
+}
+
+.logregformforgotdiv a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #657ADC;
+}
+
+.logregformforgotdiv {
+	text-align: right;
+	margin-top: -20px;
+
+}
+
+.formagreement {
+	font-size: 14px;
+}
+
+.formagreement a {
+	color: #185aaa;
+}
+
+.formagreement a:hover {
+	color: #38d;
+}
+
+.logregformbuttons {
+	padding-top: 32px;
+}
+
+.logregformbuttons button {
+	width: 430px;
+	height: 55px;
+	background: #657ADC;
+	border-radius: 10px;
+}
+
+.logregformbuttons button:hover {
+	background: #7488e2;
+}
+
+.socialloginText {
+	padding-top: 20px;
+	padding-left: 15px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	/* identical to box height, or 144% */
+
+	/* text-align: center; */
+
+	justify-content: center;
+	/* Rhythm */
+
+	color: #696888;
+}
+
+.logregformbuttons a {
+	font-size: 14px;
+	margin-left: 32px;
+	color: #185aaa;
+}
+
+.logregformbuttons a:hover {
+	color: #38d;
+}
+
+/* BEGIN: Social Login */
+.sociallogin {
+	padding-top: 36px;
+	display: flex;
+	justify-content: center;
+}
+
+.socialp {
+	font-size: 14px;
+	padding: 12px 8px 0 0;
+}
+
+.socialface,
+.sociallinkedin,
+.socialgoogle {
+	margin-left: 16px;
+}
+
+.sociallogin button {
+	width: 40px;
+	height: 40px;
+}
+
+.lasttext {
+	padding-top: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	/* identical to box height, or 144% */
+
+	text-align: center;
+
+	/* Rhythm */
+
+	color: #696888;
+}
+
+.socialface {
+	background: url('../../public/img/icon/icon-facebook.svg') center center no-repeat;
+}
+
+.sociallinkedin {
+	background: url('../../public/img/icon/icon-linkedin.svg') center center no-repeat;
+}
+
+.socialgoogle {
+	background: url('../../public/img/icon/icon-google.svg') center center no-repeat;
+}
+
+/* END: Social Login */
+/* END: Main content <section> */
+
+.modalbody {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.modalheading {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
+	text-align: center;
+	color: #0F0F17;
+}
+
+.modalheadingtext {
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #696888;
+}

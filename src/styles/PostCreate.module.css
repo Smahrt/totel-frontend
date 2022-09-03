@@ -1,0 +1,40 @@
+.heading {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #0F0F17;
+	margin-top: -40px;
+}
+
+.formGroup label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #696888;
+}
+
+.logregformbuttons {
+	margin-top: 20px;
+}
+
+.logregformbuttons button {
+
+	/* Plump Purple-primary */
+	padding: 18px 154px;
+
+	background: #657ADC;
+	border-radius: 12px;
+}
+
+
+/* .formGroup label input {
+	width: 480px;
+	height: 58px;
+	left: 31px;
+	top: 308px;
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 12px;
+} */

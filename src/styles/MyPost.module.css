@@ -1,0 +1,77 @@
+.top_tab_bar {
+	background: linear-gradient(269.67deg, #657ADC 9.71%, #4B61C2 86.77%);
+	margin-top: 85px;
+	padding-top: 50px;
+	padding-left: 70px;
+	padding-right: 70px;
+
+}
+
+.tablist button {
+	text-transform: none;
+	color: #fff !important;
+}
+
+.tablist div>span {
+	background-color: #fff;
+}
+
+.tabdiv {
+	padding: 20px 4vw 40px;
+	justify-content: center;
+	align-items: center;
+}
+
+.tabrow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.tabrow>div {
+	width: 50%;
+}
+
+
+
+
+.heading {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #0F0F17;
+	margin-top: -40px;
+}
+
+.formGroup label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #696888;
+}
+
+.logregformbuttons {
+	margin-top: 20px;
+}
+
+.logregformbuttons button {
+
+	/* Plump Purple-primary */
+	padding: 18px 154px;
+
+	background: #657ADC;
+	border-radius: 12px;
+}
+
+
+/* .formGroup label input {
+	width: 480px;
+	height: 58px;
+	left: 31px;
+	top: 308px;
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 12px;
+} */

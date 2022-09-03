@@ -1,0 +1,133 @@
+.heading {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	color: #0F0F17;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+
+.formGroup label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #696888;
+}
+
+.logregformbuttons {
+	margin-top: 20px;
+}
+
+.logregformbuttons button {
+
+	/* Plump Purple-primary */
+	padding: 18px 154px;
+
+	background: #657ADC;
+	border-radius: 12px;
+}
+
+.requests {
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 20px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.request_body {
+	display: flex;
+
+}
+
+.request_name {
+	width: 60%;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.text_name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 125%;
+	color: #0F0F17;
+}
+
+.textmuted {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ADACC4;
+}
+
+.usericon {
+	width: 20%;
+}
+
+.request_rate {
+	width: 20%;
+}
+
+.request_rate button {
+	background: #1A8F3A;
+	border-radius: 20px;
+
+	color: #fff;
+	margin-top: 18px;
+}
+
+.usericon img {
+	border-radius: 20px;
+}
+
+.rejectbtn {
+	background: #FFFFFF;
+	border: 1px solid #657ADC;
+	border-radius: 20px;
+	color: #657ADC;
+	padding: 10px;
+	width: 45%;
+}
+
+.rejectbtn :hover{
+	background: #FFFFFF;
+	border: 1px solid #657ADC;
+	border-radius: 20px;
+	color: #8d9ad3;
+	padding: 10px;
+	width: 45%;
+}
+
+
+.accpetbtn {
+	background: #657ADC;
+	border-radius: 77px;
+	color: #fff;
+	padding: 10px;
+	margin-right: 15px;
+	width: 45%;
+}
+
+.accpetbtn:hover{
+	background: #93a2e5;
+	border-radius: 77px;
+	color: #fff;
+	padding: 10px;
+	margin-right: 15px;
+	width: 45%;
+}
+
+
+/* .formGroup label input {
+	width: 480px;
+	height: 58px;
+	left: 31px;
+	top: 308px;
+	background: #FFFFFF;
+	border: 1px solid #E9E9EE;
+	border-radius: 12px;
+} */
